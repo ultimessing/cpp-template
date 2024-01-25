@@ -5,13 +5,16 @@ Tested for use with [VS Code's CMake Tools](https://marketplace.visualstudio.com
 
 ## Usage
 
-Run the following command in a new folder.
+Open a new folder with VS Code.  
+Run the following command in a new folder.  
 >git clone https://github.com/ultimessing/cpp-template.git .  
-
+Switch to the "CMakeLists.txt" file to activate the CMake Tools extension.  
 Run the file "conanrun.bat" to install the configs for all four build types: Debug, Release, MinSizeRel, RelWithDebInfo.
+This may take a while, as Conan is building all four versions of a library. I am not sure if this is needed.
 Open command pallette(Ctrl+Shift+P with default keybindings) and choose the option "CMake: Configure".  
 Ready to go!  
-Sadly, you will have to use the "CMake: Delete Cache and Reconfigure" each time you change the build type, unless I figure out how to bypass this. 
+Sadly, you will have to use the "CMake: Delete Cache and Reconfigure" option each time you change the build type, unless I figure out how to bypass this. 
+Gods of CMake are fickle after all.
 
 
 ## Adding packages
