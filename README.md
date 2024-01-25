@@ -7,6 +7,7 @@ Tested for use with [VS Code's CMake Tools](https://marketplace.visualstudio.com
 
 Run the following command in a new folder.
 >git clone https://github.com/ultimessing/cpp-template.git .  
+
 Run the file "conanrun.bat".  
 Open command pallette(Ctrl+Shift+P with default keybindings) and choose the option "CMake: Configure".  
 
