@@ -1,4 +1,4 @@
-set(CMAKE_TOOLCHAIN_FILE ${CMAKE_CURRENT_SOURCE_DIR}/build/conan_toolchain.cmake)
+set(CMAKE_TOOLCHAIN_FILE ${CMAKE_CURRENT_SOURCE_DIR}/build/${CMAKE_BUILD_TYPE}/generators/conan_toolchain.cmake)
 cmake_minimum_required(VERSION 3.21.0)
 project(myproject VERSION 0.1.0 LANGUAGES C CXX)
 

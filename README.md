@@ -3,8 +3,18 @@
 
 Tested for use with [VS Code's CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools).
 
+## Usage
+
+Run the following command in a new folder.
+>git clone https://github.com/ultimessing/cpp-template.git .
+Run the file "conanrun.bat".
+Open command pallette(Ctrl+Shift+P with default keybindings) and choose the option "CMake: Configure".
+
+Sadly, you will have to use the "CMake: Delete Cache and Reconfigure" each time you change the build type, unless I figure out how to bypass this. 
+
+
 ## Adding packages
-To add packages, edit the conanfile.txt with packages from [Conan's library repository]{https://conan.io/center} under the field "[requires]".
+To add packages, edit the conanfile.txt with packages from [Conan's library repository](https://conan.io/center) under the field "[requires]".
 Example below:
 >[requires]  
 >zlib/1.3.1
