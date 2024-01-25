@@ -6,7 +6,7 @@ Tested for use with [VS Code's CMake Tools](https://marketplace.visualstudio.com
 ## Adding packages
 To add packages, edit the conanfile.txt with packages from [Conan's library repository]{https://conan.io/center} under the field "[requires]".
 Example below:
->[requires] \n
+>[requires]  
 >zlib/1.3.1
 
 After that, run the conanrun.bat to update dependencies.
